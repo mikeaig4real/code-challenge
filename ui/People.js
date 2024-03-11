@@ -59,7 +59,8 @@ export const People = ({ communityId }) => {
             <button
                 className={`btn waves-effect waves-heavy ${usePagination ? 'green' : 'black'}`}
                 onClick={() => toggleUsePagination(!usePagination)}
-            >Toggle Pagination
+            >
+                Toggle Pagination
             </button>
             {
                 isLoading ? <p>Loading...</p> :

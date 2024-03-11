@@ -4,7 +4,7 @@
   "scripts": {
     "start": "meteor run --port 3020 --exclude-archs web.browser.legacy,web.cordova",
     "cypress": "unset NODE_OPTIONS && cypress open",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "pretjs": "prettier --write \"**/*.js\"",
     "quality": "yarn lint && yarn pretjs"
   },
